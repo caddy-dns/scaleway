@@ -21,7 +21,7 @@ To use this module for the ACME DNS challenge, [configure the ACME issuer in you
 			"provider": {
 				"name": "scaleway",
 				"secret_key": "{env.SCW_ACCESS_KEY}",
-                "organization_id": "{env.SCW_ORGANIZATION_ID}"
+				"organization_id": "{env.SCW_ORGANIZATION_ID}"
 			}
 		}
 	}
@@ -31,21 +31,15 @@ To use this module for the ACME DNS challenge, [configure the ACME issuer in you
 or with the Caddyfile:
 
 ```
-# globally
-{
-	acme_dns scaleway {
-	    secret_key      = "{env.SCW_ACCESS_KEY}"
-        organization_id = "{env.SCW_ORGANIZATION_ID}"
+tls {
+	dns scaleway {
+		secret_key {env.SCW_ACCESS_KEY}
+		organization_id {env.SCW_ORGANIZATION_ID}
 	}
 }
 ```
 
-```
-# one site
-tls {
-	dns scaleway {
-	    secret_key      = "{env.SCW_ACCESS_KEY}"
-        organization_id = "{env.SCW_ORGANIZATION_ID}"
-	}
-}
-```
+
+## Authenticating
+
+See [the associated README in the libdns package](https://github.com/libdns/scaleway) for important information about credentials.
