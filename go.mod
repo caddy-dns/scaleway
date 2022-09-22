@@ -3,7 +3,7 @@ module github.com/caddy-dns/scaleway
 go 1.19
 
 require (
-	github.com/caddyserver/caddy/v2 v2.6.0
+	github.com/caddyserver/caddy/v2 v2.6.1
 	github.com/libdns/scaleway v0.1.0
 )
 
