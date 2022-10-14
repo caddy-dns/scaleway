@@ -3,13 +3,13 @@ module github.com/caddy-dns/scaleway
 go 1.19
 
 require (
-	github.com/caddyserver/caddy/v2 v2.6.1
+	github.com/caddyserver/caddy/v2 v2.6.2
 	github.com/libdns/scaleway v0.1.1
 )
 
 require (
 	github.com/beorn7/perks v1.0.1 // indirect
-	github.com/caddyserver/certmagic v0.17.1 // indirect
+	github.com/caddyserver/certmagic v0.17.2 // indirect
 	github.com/cespare/xxhash/v2 v2.1.2 // indirect
 	github.com/fsnotify/fsnotify v1.5.4 // indirect
 	github.com/go-task/slim-sprig v0.0.0-20210107165309-348f09dbbbc0 // indirect
@@ -18,10 +18,10 @@ require (
 	github.com/google/uuid v1.3.0 // indirect
 	github.com/klauspost/cpuid/v2 v2.1.1 // indirect
 	github.com/libdns/libdns v0.2.1 // indirect
-	github.com/lucas-clemente/quic-go v0.29.0 // indirect
+	github.com/lucas-clemente/quic-go v0.29.2 // indirect
 	github.com/marten-seemann/qpack v0.2.1 // indirect
-	github.com/marten-seemann/qtls-go1-18 v0.1.2 // indirect
-	github.com/marten-seemann/qtls-go1-19 v0.1.0 // indirect
+	github.com/marten-seemann/qtls-go1-18 v0.1.3 // indirect
+	github.com/marten-seemann/qtls-go1-19 v0.1.1 // indirect
 	github.com/matttproud/golang_protobuf_extensions v1.0.1 // indirect
 	github.com/mholt/acmez v1.0.4 // indirect
 	github.com/miekg/dns v1.1.50 // indirect
