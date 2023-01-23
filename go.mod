@@ -4,7 +4,7 @@ go 1.19
 
 require (
 	github.com/caddyserver/caddy/v2 v2.6.2
-	github.com/libdns/scaleway v0.1.3
+	github.com/libdns/scaleway v0.1.4
 )
 
 require (
@@ -31,7 +31,7 @@ require (
 	github.com/prometheus/client_model v0.2.0 // indirect
 	github.com/prometheus/common v0.37.0 // indirect
 	github.com/prometheus/procfs v0.8.0 // indirect
-	github.com/scaleway/scaleway-sdk-go v1.0.0-beta.11 // indirect
+	github.com/scaleway/scaleway-sdk-go v1.0.0-beta.12 // indirect
 	go.uber.org/atomic v1.10.0 // indirect
 	go.uber.org/multierr v1.8.0 // indirect
 	go.uber.org/zap v1.23.0 // indirect
