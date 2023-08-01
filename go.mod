@@ -4,7 +4,7 @@ go 1.19
 
 require (
 	github.com/caddyserver/caddy/v2 v2.6.4
-	github.com/libdns/scaleway v0.1.8
+	github.com/libdns/scaleway v0.1.9
 )
 
 require (
@@ -31,7 +31,7 @@ require (
 	github.com/quic-go/qtls-go1-19 v0.2.0 // indirect
 	github.com/quic-go/qtls-go1-20 v0.1.0 // indirect
 	github.com/quic-go/quic-go v0.32.0 // indirect
-	github.com/scaleway/scaleway-sdk-go v1.0.0-beta.17 // indirect
+	github.com/scaleway/scaleway-sdk-go v1.0.0-beta.20 // indirect
 	go.uber.org/atomic v1.10.0 // indirect
 	go.uber.org/multierr v1.8.0 // indirect
 	go.uber.org/zap v1.24.0 // indirect
