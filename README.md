@@ -20,7 +20,7 @@ To use this module for the ACME DNS challenge, [configure the ACME issuer in you
 		"dns": {
 			"provider": {
 				"name": "scaleway",
-				"secret_key": "{env.SCW_ACCESS_KEY}",
+				"secret_key": "{env.SCW_SECRET_KEY}",
 				"organization_id": "{env.SCW_ORGANIZATION_ID}"
 			}
 		}
@@ -33,7 +33,7 @@ or with the Caddyfile:
 ```
 tls {
 	dns scaleway {
-		secret_key {env.SCW_ACCESS_KEY}
+		secret_key {env.SCW_SECRET_KEY}
 		organization_id {env.SCW_ORGANIZATION_ID}
 	}
 }
