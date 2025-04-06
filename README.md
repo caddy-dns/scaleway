@@ -32,6 +32,7 @@ or with the Caddyfile:
 
 ```
 tls {
+	dns_ttl 30m
 	dns scaleway {
 		secret_key {env.SCW_SECRET_KEY}
 		organization_id {env.SCW_ORGANIZATION_ID}
