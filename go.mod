@@ -4,7 +4,7 @@ go 1.25.0
 
 require (
 	github.com/caddyserver/caddy/v2 v2.11.3
-	github.com/libdns/scaleway v0.3.0
+	github.com/libdns/scaleway v0.3.1
 )
 
 require (

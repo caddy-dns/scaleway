@@ -30,8 +30,8 @@ github.com/letsencrypt/pebble/v2 v2.10.0 h1:Wq6gYXlsY6ubqI3hhxsTzdyotvfdjFBxuwYq
 github.com/letsencrypt/pebble/v2 v2.10.0/go.mod h1:Sk8cmUIPcIdv2nINo+9PB4L+ZBhzY+F9A1a/h/xmWiQ=
 github.com/libdns/libdns v1.1.1 h1:wPrHrXILoSHKWJKGd0EiAVmiJbFShguILTg9leS/P/U=
 github.com/libdns/libdns v1.1.1/go.mod h1:4Bj9+5CQiNMVGf87wjX4CY3HQJypUHRuLvlsfsZqLWQ=
-github.com/libdns/scaleway v0.3.0 h1:6iRNntKgu1aMvqBtyG+H5WewAr0wFx2joVvMO+MS9zs=
-github.com/libdns/scaleway v0.3.0/go.mod h1:5Qvycz5Y3ROh5HPhcP452yW10wuFFViymcr3nR3mLKM=
+github.com/libdns/scaleway v0.3.1 h1:PngueHmCpZi/dBcm6aZDr6aIkCDecW0ZFAHvL295XqM=
+github.com/libdns/scaleway v0.3.1/go.mod h1:5Qvycz5Y3ROh5HPhcP452yW10wuFFViymcr3nR3mLKM=
 github.com/mholt/acmez/v3 v3.1.6 h1:eGVQNObP0pBN4sxqrXeg7MYqTOWyoiYpQqITVWlrevk=
 github.com/mholt/acmez/v3 v3.1.6/go.mod h1:5nTPosTGosLxF3+LU4ygbgMRFDhbAVpqMI4+a4aHLBY=
 github.com/miekg/dns v1.1.72 h1:vhmr+TF2A3tuoGNkLDFK9zi36F2LS+hKTRW0Uf8kbzI=
