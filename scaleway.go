@@ -34,8 +34,6 @@ func (p *Provider) Provision(ctx caddy.Context) error {
 //	    secret_key string
 //	    organization_id string
 //	}
-//
-// **THIS IS JUST AN EXAMPLE AND NEEDS TO BE CUSTOMIZED.**
 func (p *Provider) UnmarshalCaddyfile(d *caddyfile.Dispenser) error {
 	for d.Next() {
 		if d.NextArg() {
@@ -69,10 +67,10 @@ func (p *Provider) UnmarshalCaddyfile(d *caddyfile.Dispenser) error {
 		}
 	}
 	if p.Provider.SecretKey == "" {
-		return d.Err("missing Secret key")
+		return d.Err("missing secret key")
 	}
 	if p.Provider.OrganizationID == "" {
-		return d.Err("missing Organization ID")
+		return d.Err("missing organization ID")
 	}
 	return nil
 }
